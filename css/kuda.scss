@@ -1,0 +1,292 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.first {
+
+    display: flex;
+    
+    place-content: space-between;
+
+    .firsta {
+        
+
+        ul {
+            display: flex;
+            
+
+             li {
+
+                list-style: " ";
+
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                display: inline;
+
+                .firstna {
+                    margin-top: 5em;
+
+                }
+
+                .firstim {
+                    width: 3em;
+                    height: 3em;
+                    border-radius: 2.5em;
+                    margin: -.6em 1em 0 .5em;
+                }
+            }
+        }
+    }
+
+    .firstb {
+        display: flex;
+        font-size: small;
+        margin-top: .5em;
+        margin-left: 8em;
+
+
+
+
+        ul {
+            list-style-type: none;
+
+        }
+
+        .firstba {
+
+            display: flex;
+
+
+
+
+
+
+            .firstbaa {
+
+                background-color: purple;
+                width: 2.1em;
+                height: 2.1em;
+                border-radius: 1.05em;
+                display: flex;
+                align-self: center;
+                align-content: center;
+                align-items: center;
+                margin: -2em 0 0 1em;
+
+
+
+
+
+
+                .firstbab {
+                    background-color: black;
+                    width: 1.8em;
+                    height: 1.8em;
+                    border-radius: 0.9em;
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    margin-left: .145em;
+
+
+
+
+
+
+                    .cross {
+
+                        background-color: rgb(90, 2, 90);
+
+                        width: 1.5em;
+                        height: 1.5em;
+                        border-radius: 0.75em;
+                        text-align: center;
+                        display: flex;
+                        align-content: center;
+                        align-items: center;
+                        margin-left: .145em;
+
+                        h3 {
+                            text-align: center;
+                            margin-left: .35em;
+                        }
+
+
+
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+
+.transact {
+    display: flex;
+    background-color: black;
+    height: 14em;
+    align-content: center;
+    align-items: center;
+
+    .second {
+        display: block;
+        background-color: rgb(41, 1, 41);
+        border-radius: 1em;
+        margin: auto;
+
+        width: 98%;
+
+
+
+
+        .seconda {
+            text-align: center;
+
+            h5 {
+                margin: 1.5em 4em 0 0;
+            }
+
+        }
+
+        .secondb {
+            text-align: center;
+            font-size: x-large;
+
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(237, 228, 228);
+        }
+
+        .dot {
+            display: flex;
+            place-content: center;
+            
+
+            .dota {
+                background-color: rgb(77, 55, 77);
+                margin: 0 3em;
+                height: 2em;
+                width: 3em;
+                border-radius: .4em;
+                align-items: center;
+                align-content: center;
+                
+
+
+                .spend {
+                    width: 50%;
+                    height: 50%;
+                    margin: .5em .5em .5em .8em;
+                }
+            }
+
+            .dotb {
+                background-color: rgb(77, 55, 77);
+                margin: 0 3em;
+                height: 2em;
+                width: 3em;
+                border-radius: .4em;
+                align-items: center;
+                align-content: center;
+
+                .save {
+                    width: 70%;
+                    height: 70%;
+                    margin: .5em 1.2em .6em .9em;
+
+                }
+            }
+
+            .dotc {
+                background-color: rgb(77, 55, 77);
+                margin: 0 3em;
+                height: 2em;
+                width: 3em;
+                border-radius: .4em;
+                align-items: center;
+                align-content: center;
+
+                .borrow {
+                    width: 70%;
+                    height: 70%;
+                    margin: .1em 2em .5em .9em;
+                }
+            }
+        }
+
+        .secondc {
+            display: flex;
+            text-align: center;
+            place-content: center;
+
+            ul {
+                display: flex;
+                text-align: center;
+                list-style: " ";
+
+                li {
+                    text-align: center;
+                    margin: 0 4.4em 0 2.5em;
+                    color: rgb(221, 143, 221);
+                }
+            }
+        }
+    }
+
+}
+
+.third {
+    display: block;
+    background-color: black;
+
+    .thirda {
+        display: block;
+        background-color: black;
+
+        .date {
+            display: block;
+            background-color: gray;
+
+            p {
+                margin-left: 1em;
+            }
+        }
+
+        .trans {
+            .alert {
+                display: flex;
+                background-color: black;
+                margin: -1em 0 0 1em;
+
+                .pic {
+                    width: 2em;
+                    height: 2em;
+
+                    .logo {
+                        width: 160%;
+                        height: 160%;
+                        border-radius: 80%;
+                        margin: 1em 0 0 0;
+                    }
+                }
+
+                .name {
+                    margin-left: 2em;
+                }
+
+                .amounta {
+                    margin-left: 8em;
+                    color: green;
+                    place-content: right;
+                }
+
+                .amountb {
+                    margin-left: 8em;
+                    color: white;
+                }
+            }
+        }
+
+    }
+}

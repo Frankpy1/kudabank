@@ -1,0 +1,286 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.first .firsta ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first .firsta ul li {
+  list-style: " ";
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline;
+}
+
+.first .firsta ul li .firstna {
+  margin-top: 5em;
+}
+
+.first .firsta ul li .firstim {
+  width: 3em;
+  height: 3em;
+  border-radius: 2.5em;
+  margin: -.6em 1em 0 .5em;
+}
+
+.first .firstb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: small;
+  margin-top: .5em;
+  margin-left: 8em;
+}
+
+.first .firstb ul {
+  list-style-type: none;
+}
+
+.first .firstb .firstba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first .firstb .firstba .firstbaa {
+  background-color: purple;
+  width: 2.1em;
+  height: 2.1em;
+  border-radius: 1.05em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -2em 0 0 1em;
+}
+
+.first .firstb .firstba .firstbaa .firstbab {
+  background-color: black;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 0.9em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: .145em;
+}
+
+.first .firstb .firstba .firstbaa .firstbab .cross {
+  background-color: #5a025a;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 0.75em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: .145em;
+}
+
+.first .firstb .firstba .firstbaa .firstbab .cross h3 {
+  text-align: center;
+  margin-left: .35em;
+}
+
+.transact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  height: 14em;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.transact .second {
+  display: block;
+  background-color: #290129;
+  border-radius: 1em;
+  margin: auto;
+  width: 98%;
+}
+
+.transact .second .seconda {
+  text-align: center;
+}
+
+.transact .second .seconda h5 {
+  margin: 1.5em 4em 0 0;
+}
+
+.transact .second .secondb {
+  text-align: center;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ede4e4;
+}
+
+.transact .second .dot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+}
+
+.transact .second .dot .dota {
+  background-color: #4d374d;
+  margin: 0 3em;
+  height: 2em;
+  width: 3em;
+  border-radius: .4em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.transact .second .dot .dota .spend {
+  width: 50%;
+  height: 50%;
+  margin: .5em .5em .5em .8em;
+}
+
+.transact .second .dot .dotb {
+  background-color: #4d374d;
+  margin: 0 3em;
+  height: 2em;
+  width: 3em;
+  border-radius: .4em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.transact .second .dot .dotb .save {
+  width: 70%;
+  height: 70%;
+  margin: .5em 1.2em .6em .9em;
+}
+
+.transact .second .dot .dotc {
+  background-color: #4d374d;
+  margin: 0 3em;
+  height: 2em;
+  width: 3em;
+  border-radius: .4em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.transact .second .dot .dotc .borrow {
+  width: 70%;
+  height: 70%;
+  margin: .1em 2em .5em .9em;
+}
+
+.transact .second .secondc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  place-content: center;
+}
+
+.transact .second .secondc ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  list-style: " ";
+}
+
+.transact .second .secondc ul li {
+  text-align: center;
+  margin: 0 4.4em 0 2.5em;
+  color: #dd8fdd;
+}
+
+.third {
+  display: block;
+  background-color: black;
+}
+
+.third .thirda {
+  display: block;
+  background-color: black;
+}
+
+.third .thirda .date {
+  display: block;
+  background-color: gray;
+}
+
+.third .thirda .date p {
+  margin-left: 1em;
+}
+
+.third .thirda .trans .alert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  margin: -1em 0 0 1em;
+}
+
+.third .thirda .trans .alert .pic {
+  width: 2em;
+  height: 2em;
+}
+
+.third .thirda .trans .alert .pic .logo {
+  width: 160%;
+  height: 160%;
+  border-radius: 80%;
+  margin: 1em 0 0 0;
+}
+
+.third .thirda .trans .alert .name {
+  margin-left: 2em;
+}
+
+.third .thirda .trans .alert .amounta {
+  margin-left: 8em;
+  color: green;
+  place-content: right;
+}
+
+.third .thirda .trans .alert .amountb {
+  margin-left: 8em;
+  color: white;
+}
+/*# sourceMappingURL=kuda.css.map */
